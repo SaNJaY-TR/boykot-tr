@@ -1,6 +1,6 @@
 # İktidarı Boykot Etme Takvimi
 
-Bu proje, toplumsal adaletsizliklere karşı duruş sergilemek ve iktidarın uygulamalarına karşı bir protesto yöntemi olarak kullanılan bir boykot takvimi oluşturur. Takvim, her 6 günde bir (15, 21 ve 27 Nisan tarihlerinde) boykot uyarısı yapacak şekilde işaretlenmiştir.
+Bu proje, toplumsal adaletsizliklere karşı duruş sergilemek ve iktidarın uygulamalarına karşı bir protesto yöntemi olarak kullanılan bir boykot takvimi oluşturur. Takvim, her 6 günde bir boykot uyarısı yapacak şekilde işaretlenmiştir.
 
 ## Özellikler
 
