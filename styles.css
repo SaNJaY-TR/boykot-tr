@@ -1,67 +1,85 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-}
-
-h1 {
-  margin-bottom: 20px;
-}
-
-.calendar-container {
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: #f9f9f9;
-}
-
-.calendar-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-button {
-  background-color: #ffcc00;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  background-color: #ff9900;
-}
-
-#month-year {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 40px;
-}
-
-.calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 5px;
-}
-
-.day {
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.day.highlight {
-  background-color: #ffcc00;
-  font-weight: bold;
-}
-
-#boykot-message {
-  margin-top: 20px;
-  font-size: 20px;
-  color: red;
-  font-weight: bold;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .calendar-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .nav-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .nav-button:hover {
+    background-color: #ff9900;
+  }
+  
+  .month-year {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .day {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .day:hover {
+    background-color: #0022ff;
+  }
+  
+  .day.highlight {
+    background-color: #ffcc00;
+    font-weight: bold;
+  }
+  
+  .day.today {
+    background-color: #ff9999;
+    font-weight: bold;
+  }
+  
+  .boykot-message {
+    margin-top: 15px;
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+  
