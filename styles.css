@@ -82,4 +82,45 @@
     font-weight: bold;
     text-align: center;
   }
+  @media (max-width: 768px) {
+    .calendar-wrapper {
+        max-width: 600px;
+        width: 100%;
+      }
+      
+  
+    .calendar-header {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .month-year {
+      font-size: 20px;
+    }
+  
+    .nav-button {
+      padding: 8px;
+      font-size: 16px;
+      width: 100%;
+    }
+  
+    .calendar {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 5px;
+        width: 100%;
+        overflow-x: auto;
+      }
+      
+
+    .day {
+      padding: 8px;
+      font-size: 14px;
+      min-height: 45px;
+    }
+  
+    .boykot-message {
+      font-size: 24px;
+    }
+  }
   
