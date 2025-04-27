@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Takvim</title>
+  <title>İktidarı Boykot Etme Takvimi</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Takvim</h1>
-  <div id="calendar"></div>
+  <h1>İktidarı Boykot Etme Takvimi</h1>
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button id="prev-month">&lt;</button>
+      <span id="month-year"></span>
+      <button id="next-month">&gt;</button>
+    </div>
+    <div id="calendar" class="calendar"></div>
+  </div>
   <p id="boykot-message"></p>
   <script src="script.js"></script>
 </body>
