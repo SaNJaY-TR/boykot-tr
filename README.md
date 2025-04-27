@@ -1,4 +1,4 @@
-# İktidarı Boykot Etme Takvimi
+# Ekonomik Boykot Takvimi
 
 Bu proje, toplumsal adaletsizliklere karşı duruş sergilemek ve iktidarın uygulamalarına karşı bir protesto yöntemi olarak kullanılan bir boykot takvimi oluşturur. Takvim, her 6 günde bir boykot uyarısı yapacak şekilde işaretlenmiştir.
 
