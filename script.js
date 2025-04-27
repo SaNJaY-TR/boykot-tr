@@ -95,7 +95,7 @@ document.getElementById("next-month").addEventListener("click", () => {
 });
 
 // Başlangıçta özel günleri oluştur
-generateSpecialDays(new Date(2025, 3, 15)); // 15 Nisan 2025'ten itibaren başla
+generateSpecialDays(new Date(2025, 3, 9)); //Başlangıç
 
 // Başlangıçta takvimi oluştur
 generateCalendar();
